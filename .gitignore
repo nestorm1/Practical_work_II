@@ -1,0 +1,3 @@
+#To ignore temporal html files.
+
+*.tmp.html
