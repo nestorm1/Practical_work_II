@@ -6,3 +6,4 @@ This is the repository of the practical work II.
 
 - Added base files and docs folder.
 - Added index and css folder (style).
+- Index page coded.
