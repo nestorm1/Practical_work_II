@@ -8,3 +8,4 @@ This is the repository of the practical work II.
 - Added index and css folder (style).
 - Index page coded.
 - Contact page coded and changes in index.
+- About me page coded and changes in index.

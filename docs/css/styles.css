@@ -35,7 +35,7 @@
     
 }
 
-.header-nav a:target {
+.header-nav a:active {
     text-decoration: underline;
     color: orange;
 }
@@ -49,6 +49,11 @@
 }
 
 .body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.central {
     display:flex;
     height: 80vh;
     background-color: #FFFFFF;
@@ -59,25 +64,67 @@
     
 }
 
-.body-content {
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-right: 20vh;
+    padding-left: 25vh;
+    margin-block-start: 80px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.information-box {
+    width: 100%;
+    max-width: 600px;
+    background-color: #f0f0f0;
+    padding-right: 20vh;
+    padding-left: 25vh;
+    border: 1px solid;
+    border-radius: 8px;
+    
+}
+
+.information-box h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #2C3E50;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.information-box p {
+    font-size: 20px;
+    color: #545c5c;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.aboutme_picture {
+    margin: 20px 40px;
+    display: inline-flex;
+    width: 210px;
+    height: auto;
+    
+}
+.central-content {
     width: fit-content;
     text-align: center;
 }
 
-.body-content h1 {
+.central-content h1 {
     font-size: 30px;
     color: #2C3E50;
     padding-top: 5px;
     padding-bottom: 10px;
-    
 }
 
-.body-content p {
+.central-content p {
     font-size: medium;
     color: #545c5c;
 }
 
-.body-content li {
+.central-content li {
     text-align: left;
     color:#545c5c;
 }
@@ -107,11 +154,13 @@
 }
 
 .footer {
-    height: fit-content;
+    height: 50px;
     width: 100%;
     color: #7f8c8d;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    flex: 1;
 
 }
 
