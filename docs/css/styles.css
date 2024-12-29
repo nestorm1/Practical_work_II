@@ -52,6 +52,7 @@
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .central {
     display:flex;
@@ -125,7 +126,14 @@
     text-align: center;
 }
 
-.central-content h1 {
+.title {
+    text-align: center;
+    font-size: 30px;
+    color: #2C3E50;
+    padding-top: 5px;
+}
+.central-content h2 {
+    align-items: center;
     font-size: 30px;
     color: #2C3E50;
     padding-top: 5px;
