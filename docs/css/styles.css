@@ -93,6 +93,19 @@
     padding-bottom: 10px;
 }
 
+.information-box h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #2C3E50;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.information-box li {
+    margin-bottom: 5px;
+    color: #545c5c;
+}
+
 .information-box p {
     font-size: 20px;
     color: #545c5c;
@@ -173,9 +186,11 @@
     margin: 0 20px;
 }
 
-.logo-footer {
-    width: 50px;
+.logo-about {
+    width: 70px;
     height: auto;
+    display: inline;
+    padding: 10px 30px;
 }
   
 .form-container {

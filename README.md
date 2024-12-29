@@ -9,3 +9,4 @@ This is the repository of the practical work II.
 - Index page coded.
 - Contact page coded and changes in index.
 - About me page coded and changes in index.
+- Degree page coded, to be complete it is needed FCE page.
