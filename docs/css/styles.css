@@ -40,6 +40,10 @@
     color: orange;
 }
 
+.header-nav a.active {
+    background-color: antiquewhite;
+}
+
 .logo-header {
     width: 50px;
     height: auto;
@@ -48,21 +52,11 @@
     top: 50%;
 }
 
-.body {
+.central {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-}
-.central {
-    display:flex;
-    height: 80vh;
-    background-color: #FFFFFF;
-    align-items: flex-start;
-    padding-right: 20vh;
-    padding-left: 25vh;
-    font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 .container {
@@ -72,7 +66,7 @@
     padding-right: 20vh;
     padding-left: 25vh;
     margin-block-start: 80px;
-    font-family:Arial, Helvetica, sans-serif
+    
 }
 
 .information-box {
@@ -83,7 +77,6 @@
     padding-left: 25vh;
     border: 1px solid;
     border-radius: 8px;
-    
 }
 
 .information-box h2 {
@@ -119,6 +112,14 @@
     line-height: 1.6;
 }
 
+.information-box a {
+    text-decoration: none;
+}
+
+.net {
+    font-size: 20px;
+    
+}
 .aboutme_picture {
     margin: 20px 40px;
     display: inline-flex;
@@ -154,24 +155,6 @@
 }
 
 
-.central-content h2 {
-    align-items: center;
-    font-size: 30px;
-    color: #2C3E50;
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
-
-.central-content p {
-    font-size: medium;
-    color: #545c5c;
-}
-
-.central-content li {
-    text-align: left;
-    color:#545c5c;
-}
-
 .about-section {
     padding: 20px;
     background: #f4f4f4;
@@ -203,8 +186,6 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 50px;
-    flex: 1;
-
 }
 
 .aside-section {
@@ -222,19 +203,6 @@
     display: inline;
     padding: 10px 30px;
 }
-  
-.form-container {
-    width: 100%;
-    max-width: max-content;
-    background-color: #f0f0f0;
-    padding-right: 20vh;
-    padding-left: 25vh;
-    border: 1px solid;
-    border-radius: 8px;
-    margin-top: 80px;
-    margin-bottom: 40px;
-}
-
 
 .no-points {
     list-style: none;
